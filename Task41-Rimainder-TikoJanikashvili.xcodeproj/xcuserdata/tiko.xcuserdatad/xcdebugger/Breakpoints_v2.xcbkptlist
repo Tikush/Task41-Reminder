@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5E887F8B-B29F-4E8C-A457-15AA136662AB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D3B4D2A-4858-4F5A-B109-F59D260A89BB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task41-Rimainder-TikoJanikashvili/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "notification()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1D3B4D2A-4858-4F5A-B109-F59D260A89BB - ab28b62fd3ef1486"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Task41_Rimainder_TikoJanikashvili.ViewController.notification() -&gt; ()"
+                  moduleName = "Task41-Rimainder-TikoJanikashvili"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tiko/Documents/T/Task41-Rimainder-TikoJanikashvili/Task41-Rimainder-TikoJanikashvili/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "25">
+               </Location>
+               <Location
+                  uuid = "1D3B4D2A-4858-4F5A-B109-F59D260A89BB - 91e2cf59755d5c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Task41_Rimainder_TikoJanikashvili.ViewController.notification() -&gt; ()"
+                  moduleName = "Task41-Rimainder-TikoJanikashvili"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tiko/Documents/T/Task41-Rimainder-TikoJanikashvili/Task41-Rimainder-TikoJanikashvili/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "130">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08F43B85-8537-4F42-9D3A-F4EEECB9B6BF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task41-Rimainder-TikoJanikashvili/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "notification()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

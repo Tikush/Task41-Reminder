@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Alert View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="AlertViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="AlertViewController" customModule="Task41_Rimainder_TikoJanikashvili" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZhB-MM-Bdk">
+                                <rect key="frame" x="67.5" y="133.5" width="240" height="400"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="O1o-nk-q9h">
+                                        <rect key="frame" x="10" y="10" width="220" height="75"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lOC-eP-iGT">
+                                                <rect key="frame" x="0.0" y="0.0" width="220" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Disciption" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qos-Tf-6q4">
+                                                <rect key="frame" x="0.0" y="41" width="220" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Gwt-jh-0Vp">
+                                        <rect key="frame" x="0.0" y="85" width="240" height="216"/>
+                                    </datePicker>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Unv-Dj-f6H">
+                                        <rect key="frame" x="10" y="340" width="220" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="IuK-ko-1un"/>
+                                        </constraints>
+                                        <state key="normal" title="Save"/>
+                                        <connections>
+                                            <action selector="save:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="IOm-KF-J5g"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="O1o-nk-q9h" firstAttribute="top" secondItem="ZhB-MM-Bdk" secondAttribute="top" constant="10" id="8Vd-78-pqw"/>
+                                    <constraint firstItem="Unv-Dj-f6H" firstAttribute="leading" secondItem="ZhB-MM-Bdk" secondAttribute="leading" constant="10" id="E1i-ON-VGO"/>
+                                    <constraint firstItem="Gwt-jh-0Vp" firstAttribute="top" secondItem="O1o-nk-q9h" secondAttribute="bottom" id="Igt-Bm-PIp"/>
+                                    <constraint firstAttribute="height" constant="400" id="J0r-57-XKW"/>
+                                    <constraint firstAttribute="bottom" secondItem="Unv-Dj-f6H" secondAttribute="bottom" constant="10" id="KRk-XD-5Q0"/>
+                                    <constraint firstAttribute="trailing" secondItem="Gwt-jh-0Vp" secondAttribute="trailing" id="MB7-sf-ngu"/>
+                                    <constraint firstItem="Unv-Dj-f6H" firstAttribute="top" secondItem="Gwt-jh-0Vp" secondAttribute="bottom" constant="39" id="THc-an-pyf"/>
+                                    <constraint firstAttribute="width" constant="240" id="X60-oS-1DD"/>
+                                    <constraint firstAttribute="trailing" secondItem="O1o-nk-q9h" secondAttribute="trailing" constant="10" id="dBk-Qf-UCW"/>
+                                    <constraint firstItem="Gwt-jh-0Vp" firstAttribute="leading" secondItem="ZhB-MM-Bdk" secondAttribute="leading" id="pZh-ae-dnv"/>
+                                    <constraint firstItem="O1o-nk-q9h" firstAttribute="leading" secondItem="ZhB-MM-Bdk" secondAttribute="leading" constant="10" id="tgs-2B-70q"/>
+                                    <constraint firstAttribute="trailing" secondItem="Unv-Dj-f6H" secondAttribute="trailing" constant="10" id="tjf-u0-3nq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <constraints>
+                            <constraint firstItem="ZhB-MM-Bdk" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="NDK-s3-vg0"/>
+                            <constraint firstItem="ZhB-MM-Bdk" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Z5i-gk-4zI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="ZhB-MM-Bdk" id="fij-M0-csi"/>
+                        <outlet property="descriptionTextField" destination="lOC-eP-iGT" id="dJT-8n-whL"/>
+                        <outlet property="titleTextField" destination="Qos-Tf-6q4" id="oWI-FC-gE1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.199999999999999" y="125.4872563718141"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

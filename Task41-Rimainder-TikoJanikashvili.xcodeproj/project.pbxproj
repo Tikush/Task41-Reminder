@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D524F78268A3E5A00733439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D524F77268A3E5A00733439 /* AppDelegate.swift */; };
+		3D524F7A268A3E5A00733439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D524F79268A3E5A00733439 /* SceneDelegate.swift */; };
+		3D524F7C268A3E5A00733439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D524F7B268A3E5A00733439 /* ViewController.swift */; };
+		3D524F7F268A3E5A00733439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D524F7D268A3E5A00733439 /* Main.storyboard */; };
+		3D524F81268A3E5C00733439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D524F80268A3E5C00733439 /* Assets.xcassets */; };
+		3D524F84268A3E5C00733439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D524F82268A3E5C00733439 /* LaunchScreen.storyboard */; };
+		3D524F8C268A426A00733439 /* AlertViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D524F8B268A426A00733439 /* AlertViewController.storyboard */; };
+		3D524F8E268A427600733439 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D524F8D268A427600733439 /* AlertViewController.swift */; };
+		3D524F90268A466400733439 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D524F8F268A466400733439 /* Reminder.swift */; };
+		3D524F94268A474000733439 /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D524F92268A474000733439 /* ReminderCell.swift */; };
+		3D524F95268A474000733439 /* ReminderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D524F93268A474000733439 /* ReminderCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D524F74268A3E5A00733439 /* Task41-Rimainder-TikoJanikashvili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task41-Rimainder-TikoJanikashvili.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D524F77268A3E5A00733439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D524F79268A3E5A00733439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D524F7B268A3E5A00733439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D524F7E268A3E5A00733439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D524F80268A3E5C00733439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D524F83268A3E5C00733439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D524F85268A3E5C00733439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D524F8B268A426A00733439 /* AlertViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlertViewController.storyboard; sourceTree = "<group>"; };
+		3D524F8D268A427600733439 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		3D524F8F268A466400733439 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		3D524F92268A474000733439 /* ReminderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
+		3D524F93268A474000733439 /* ReminderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D524F71268A3E5A00733439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D524F6B268A3E5A00733439 = {
+			isa = PBXGroup;
+			children = (
+				3D524F76268A3E5A00733439 /* Task41-Rimainder-TikoJanikashvili */,
+				3D524F75268A3E5A00733439 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D524F75268A3E5A00733439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D524F74268A3E5A00733439 /* Task41-Rimainder-TikoJanikashvili.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D524F76268A3E5A00733439 /* Task41-Rimainder-TikoJanikashvili */ = {
+			isa = PBXGroup;
+			children = (
+				3D524F96268A4F8700733439 /* Alert  */,
+				3D524F91268A470F00733439 /* Reminder Cell */,
+				3D524F77268A3E5A00733439 /* AppDelegate.swift */,
+				3D524F79268A3E5A00733439 /* SceneDelegate.swift */,
+				3D524F7B268A3E5A00733439 /* ViewController.swift */,
+				3D524F7D268A3E5A00733439 /* Main.storyboard */,
+				3D524F80268A3E5C00733439 /* Assets.xcassets */,
+				3D524F82268A3E5C00733439 /* LaunchScreen.storyboard */,
+				3D524F85268A3E5C00733439 /* Info.plist */,
+				3D524F8F268A466400733439 /* Reminder.swift */,
+			);
+			path = "Task41-Rimainder-TikoJanikashvili";
+			sourceTree = "<group>";
+		};
+		3D524F91268A470F00733439 /* Reminder Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3D524F92268A474000733439 /* ReminderCell.swift */,
+				3D524F93268A474000733439 /* ReminderCell.xib */,
+			);
+			path = "Reminder Cell";
+			sourceTree = "<group>";
+		};
+		3D524F96268A4F8700733439 /* Alert  */ = {
+			isa = PBXGroup;
+			children = (
+				3D524F8B268A426A00733439 /* AlertViewController.storyboard */,
+				3D524F8D268A427600733439 /* AlertViewController.swift */,
+			);
+			path = "Alert ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D524F73268A3E5A00733439 /* Task41-Rimainder-TikoJanikashvili */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D524F88268A3E5C00733439 /* Build configuration list for PBXNativeTarget "Task41-Rimainder-TikoJanikashvili" */;
+			buildPhases = (
+				3D524F70268A3E5A00733439 /* Sources */,
+				3D524F71268A3E5A00733439 /* Frameworks */,
+				3D524F72268A3E5A00733439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Task41-Rimainder-TikoJanikashvili";
+			productName = "Task41-Rimainder-TikoJanikashvili";
+			productReference = 3D524F74268A3E5A00733439 /* Task41-Rimainder-TikoJanikashvili.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D524F6C268A3E5A00733439 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3D524F73268A3E5A00733439 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 3D524F6F268A3E5A00733439 /* Build configuration list for PBXProject "Task41-Rimainder-TikoJanikashvili" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D524F6B268A3E5A00733439;
+			productRefGroup = 3D524F75268A3E5A00733439 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D524F73268A3E5A00733439 /* Task41-Rimainder-TikoJanikashvili */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D524F72268A3E5A00733439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D524F8C268A426A00733439 /* AlertViewController.storyboard in Resources */,
+				3D524F84268A3E5C00733439 /* LaunchScreen.storyboard in Resources */,
+				3D524F95268A474000733439 /* ReminderCell.xib in Resources */,
+				3D524F81268A3E5C00733439 /* Assets.xcassets in Resources */,
+				3D524F7F268A3E5A00733439 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D524F70268A3E5A00733439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D524F7C268A3E5A00733439 /* ViewController.swift in Sources */,
+				3D524F94268A474000733439 /* ReminderCell.swift in Sources */,
+				3D524F78268A3E5A00733439 /* AppDelegate.swift in Sources */,
+				3D524F7A268A3E5A00733439 /* SceneDelegate.swift in Sources */,
+				3D524F8E268A427600733439 /* AlertViewController.swift in Sources */,
+				3D524F90268A466400733439 /* Reminder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D524F7D268A3E5A00733439 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D524F7E268A3E5A00733439 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D524F82268A3E5C00733439 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D524F83268A3E5C00733439 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D524F86268A3E5C00733439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D524F87268A3E5C00733439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D524F89268A3E5C00733439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Task41-Rimainder-TikoJanikashvili/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ge.space.Task41-Rimainder-TikoJanikashvili";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D524F8A268A3E5C00733439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Task41-Rimainder-TikoJanikashvili/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ge.space.Task41-Rimainder-TikoJanikashvili";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D524F6F268A3E5A00733439 /* Build configuration list for PBXProject "Task41-Rimainder-TikoJanikashvili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D524F86268A3E5C00733439 /* Debug */,
+				3D524F87268A3E5C00733439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D524F88268A3E5C00733439 /* Build configuration list for PBXNativeTarget "Task41-Rimainder-TikoJanikashvili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D524F89268A3E5C00733439 /* Debug */,
+				3D524F8A268A3E5C00733439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D524F6C268A3E5A00733439 /* Project object */;
+}
